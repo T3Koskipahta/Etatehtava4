@@ -1,11 +1,9 @@
 package model.dao;
-
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.util.ArrayList;
-
 import model.Asiakas;
 
 public class Dao {
@@ -19,9 +17,8 @@ public class Dao {
     	Connection con = null;    	
     	String path = System.getProperty("catalina.base");    	
     	path = path.substring(0, path.indexOf(".metadata")).replace("\\", "/"); //Eclipsessa
-    	System.out.println("Polku on: " + path);
     	//path += "/webapps/"; //Tuotannossa. Laita tietokanta webapps-kansioon
-    	String url = "jdbc:sqlite:" +path+ db;    	
+    	String url = "jdbc:sqlite:" + path + db;    	
     	try {	       
     		Class.forName("org.sqlite.JDBC");
 	        con = DriverManager.getConnection(url);	
@@ -35,7 +32,7 @@ public class Dao {
 	
 	public ArrayList<Asiakas> listaaKaikki(){
 		ArrayList<Asiakas> asiakkaat = new ArrayList<Asiakas>();
-		sql = "SELECT * FROM asiakkaat";       
+		sql = "SELECT * FROM myynti";       
 		try {
 			con=yhdista();
 			if(con!=null){ //jos yhteys onnistui
@@ -63,7 +60,7 @@ public class Dao {
 	
 	public ArrayList<Asiakas> listaaKaikki(String hakusana){
 		ArrayList<Asiakas> asiakkaat = new ArrayList<Asiakas>();
-		sql = "SELECT * FROM asiakkaat WHERE etunimi LIKE ? or sukunimi LIKE ? or sposti LIKE ?"; 
+		sql = "SELECT * FROM myynti WHERE etunimi LIKE ? or sukunimi LIKE ? or puhelin LIKE ?"; 
 		try {
 			con=yhdista();
 			if(con!=null){ //jos yhteys onnistui

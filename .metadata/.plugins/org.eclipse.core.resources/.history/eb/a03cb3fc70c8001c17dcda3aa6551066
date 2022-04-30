@@ -63,7 +63,7 @@ public class Dao {
 	
 	public ArrayList<Asiakas> listaaKaikki(String hakusana){
 		ArrayList<Asiakas> asiakkaat = new ArrayList<Asiakas>();
-		sql = "SELECT * FROM asiakkaat WHERE etunimi LIKE ? or sukunimi LIKE ? or sposti LIKE ?"; 
+		sql = "SELECT * FROM myynti WHERE etunimi LIKE ? or sukunimi LIKE ? or sposti LIKE ?"; 
 		try {
 			con=yhdista();
 			if(con!=null){ //jos yhteys onnistui

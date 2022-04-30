@@ -48,6 +48,7 @@ $(document).ready(function(){
 		  }
 	});
 	$("#hakusana").focus();//vied‰‰n kursori hakusana-kentt‰‰n sivun latauksen yhteydess‰
+	haetiedot();
 });	
 
 function haeasiakkaat(){
