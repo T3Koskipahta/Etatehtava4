@@ -1,0 +1,17 @@
+127.0.0.1 - - [01/May/2022:21:25:07 +0300] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [01/May/2022:21:25:07 +0300] "GET /Myynti/lisaaasiakas.jsp HTTP/1.1" 200 2888
+0:0:0:0:0:0:0:1 - - [01/May/2022:21:25:07 +0300] "GET /Myynti/scripts/main.js HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [01/May/2022:21:25:07 +0300] "GET /Myynti/css/main.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [01/May/2022:21:25:08 +0300] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [01/May/2022:21:25:10 +0300] "GET /Myynti/listaaasiakkaat.jsp HTTP/1.1" 200 2581
+0:0:0:0:0:0:0:1 - - [01/May/2022:21:25:10 +0300] "GET /Myynti/asiakkaat/ HTTP/1.1" 200 453
+0:0:0:0:0:0:0:1 - - [01/May/2022:21:25:11 +0300] "GET /Myynti/lisaaasiakas.jsp HTTP/1.1" 200 2888
+0:0:0:0:0:0:0:1 - - [01/May/2022:21:25:12 +0300] "GET /Myynti/listaaasiakkaat.jsp HTTP/1.1" 200 2581
+0:0:0:0:0:0:0:1 - - [01/May/2022:21:25:12 +0300] "GET /Myynti/asiakkaat/ HTTP/1.1" 200 453
+0:0:0:0:0:0:0:1 - - [01/May/2022:21:25:13 +0300] "GET /Myynti/lisaaasiakas.jsp HTTP/1.1" 200 2888
+0:0:0:0:0:0:0:1 - - [01/May/2022:21:25:15 +0300] "GET /Myynti/listaaasiakkaat.jsp HTTP/1.1" 200 2581
+0:0:0:0:0:0:0:1 - - [01/May/2022:21:25:15 +0300] "GET /Myynti/asiakkaat/ HTTP/1.1" 200 453
+0:0:0:0:0:0:0:1 - - [01/May/2022:21:25:16 +0300] "GET /Myynti/lisaaasiakas.jsp HTTP/1.1" 200 2888
+0:0:0:0:0:0:0:1 - - [01/May/2022:21:25:18 +0300] "GET /Myynti/listaaasiakkaat.jsp HTTP/1.1" 200 2581
+0:0:0:0:0:0:0:1 - - [01/May/2022:21:25:18 +0300] "GET /Myynti/asiakkaat/ HTTP/1.1" 200 453
+0:0:0:0:0:0:0:1 - - [01/May/2022:21:25:21 +0300] "GET /Myynti/lisaaasiakas.jsp HTTP/1.1" 200 2888
